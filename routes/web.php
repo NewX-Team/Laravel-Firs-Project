@@ -13,13 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/school', function () {
     return view('school');
 });
-Route::get('/pendaftaran', function () {
-    return view('pendaftaran');
-});
+
